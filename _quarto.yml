@@ -6,8 +6,8 @@ project:
 website:
   title: "My website" # Title
   description: "I am a scientist" # Description of the place
-  site-url: https://pakillo.github.io/academic-website-template-Quarto # URL web
-  repo-url: https://github.com/Pakillo/academic-website-template-Quarto
+  site-url: https://alejandrosgz.github.io/ASG_Website # URL web
+  repo-url: https://alejandrosgz.github.io/ASG_Website/
   # favicon: logo.png
   twitter-card: true
   #   creator: "@handle"
