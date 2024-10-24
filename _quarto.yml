@@ -4,30 +4,30 @@ project:
 
 
 website:
-  title: "My website"
-  description: "I am a scientist"
-  site-url: https://pakillo.github.io/academic-website-template-Quarto
+  title: "My website" # Title
+  description: "I am a scientist" # Description of the place
+  site-url: https://pakillo.github.io/academic-website-template-Quarto # URL web
   repo-url: https://github.com/Pakillo/academic-website-template-Quarto
   # favicon: logo.png
   twitter-card: true
   #   creator: "@handle"
   #   site: "@handle"
   open-graph: true
-  # google-analytics:
+  # google-analytics: # Control visitas
   #   tracking-id: "UA-XXXXXXXX"
   #   anonymize-ip: true
   # cookie-consent: true
 
 
-  navbar:
-    right:
-      - href: index.qmd
+  navbar: # Structure --> Navigation bar
+    right: # Position
+      - href: index.qmd # Main
         text: Home
-      - Projects.qmd
+      - Projects.qmd # Different pages
       - Publications.qmd
       - Blog.qmd
 
-      # - icon: mastodon
+      # - icon: mastodon  # To include icons in the navigation bar
       #   href: https://joinmastodon.org
       # - text: "{{< iconify fa6-brands bluesky title='BlueSky'>}}"
       #   href: https://bsky.app

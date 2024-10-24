@@ -1,32 +1,32 @@
 ---
-title: "Finley Malloc"
+title: "Alejandro Sánchez Gómez" # Page title
+subtitle: "alejandro.sanchezg@uah.es"
 about:
-  template: trestles
-  image: avatar.jpg
-  links:
-    - icon: envelope
+  template: broadside # Different templates https://quarto.org/docs/websites/website-about.html
+  image: avatar.jpg # Picture
+  links: # Links to social networks
+    - icon: envelope # Read the icons from a web. Iconify allow to configure the location, etc. https://iconify.design/
       # text: email
-      href: "mailto: test@example.com"
-    - icon: mastodon
-      href: https://joinmastodon.org
-    - text: "{{< iconify fa6-brands bluesky title='BlueSky'>}}"
-      href: https://bsky.app
-    - text: "{{< iconify fa6-brands x-twitter title='Twitter'>}}"
-      href: https://x.com
+      href: "alejandro.sanchezg@uah.es"
+   # - icon: mastodon
+   #   href: https://joinmastodon.org
+   # - text: "{{< iconify fa6-brands bluesky title='BlueSky'>}}"
+   #   href: https://bsky.app
+   # - text: "{{< iconify fa6-brands x-twitter title='Twitter'>}}"
+   #   href: https://x.com
     - icon: github
-      href: https://github.com
+      href: https://github.com/alejandrosgz
     - icon: linkedin
-      href: https://linkedin.com/
+      href: https://www.linkedin.com/in/alejandrosanchezgomezasg/
     - text: "{{< iconify academicons google-scholar-square size=1.2em title='Scholar'>}}"
-      href: https://scholar.google.com
+      href: https://scholar.google.es/citations?user=EnClcUMAAAAJ&hl=es&oi=ao
     - text: "{{< iconify fa6-brands orcid size=1.2em title='ORCID' >}}"
-      href: https://orcid.org/
+      href: https://orcid.org/my-orcid?orcid=0000-0003-1085-0941
     # - icon: twitter
     #   text: twitter
     #   href: https://twitter.com
     # - icon: github
-    #   text: Github
-    #   href: https://github.com
+
 ---
 
 Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
