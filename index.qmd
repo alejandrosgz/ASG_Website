@@ -2,7 +2,7 @@
 title: "Alejandro Sánchez Gómez" # Page title
 subtitle: "alejandro.sanchezg@uah.es"
 about:
-  template: trestles # Different templates https://quarto.org/docs/websites/website-about.html
+  template: trestles # Different templates https://quarto.org/docs/websites/website-about.html 
   image: avatar.jpg # Picture
   links: # Links to social networks
     - icon: envelope # Read the icons from a web. Iconify allow to configure the location, etc. https://iconify.design/
