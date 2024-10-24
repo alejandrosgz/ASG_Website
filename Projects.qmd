@@ -1,8 +1,8 @@
 ---
 title: "Projects"
 listing:
-  contents: projects
-  type: grid
+  contents: projects # Folder with further files/pages
+  type: grid # To make it as a grid
   categories: false
 ---
 

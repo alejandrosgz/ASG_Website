@@ -21,3 +21,4 @@ format_pub <- function(pub) {
 }
 
 
+scholar_pubs("https://scholar.google.es/citations?user=EnClcUMAAAAJ&hl=es&oi=ao")

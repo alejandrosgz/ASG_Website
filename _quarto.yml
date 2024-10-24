@@ -9,7 +9,7 @@ website:
   site-url: https://alejandrosgz.github.io/ASG_Website # URL web
   repo-url: https://alejandrosgz.github.io/ASG_Website/
   # favicon: logo.png
-  twitter-card: true
+ # twitter-card: true
   #   creator: "@handle"
   #   site: "@handle"
   open-graph: true
@@ -59,7 +59,7 @@ format:
     toc: false
 
 execute:
-  freeze: auto  # re-render only when source changes
+  freeze: auto  # re-render only when source changes. Only run what it has been changed
 
 
 
