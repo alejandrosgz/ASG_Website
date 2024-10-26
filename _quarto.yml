@@ -4,8 +4,8 @@ project:
 
 
 website:
-  title: "My website" # Title
-  description: "I am a scientist" # Description of the place
+  title: "ASG Website" # Title
+  description: "ASG Website" # Description of the place
   site-url: https://alejandrosgz.github.io/ASG_Website # URL web
   repo-url: https://alejandrosgz.github.io/ASG_Website/
   # favicon: logo.png
@@ -23,9 +23,22 @@ website:
     right: # Position
       - href: index.qmd # Main
         text: Home
-      - Projects.qmd # Different pages
-      - Publications.qmd
-      - Blog.qmd
+      - text: Research # Parent menu without href
+        menu: # Dropdown menu
+          - text: "Publications"
+            href: Publications.qmd
+          - text: "Projects"
+            href: Projects.qmd
+      - href: Blog.qmd
+        text: "Blog"
+
+     #     - text: "Publications"
+     #       href: Publications.qmd
+     #     - text: "Projects"
+     #       href: Projects.qmd
+     # - Projects.qmd # Different pages
+     # - Publications.qmd
+     # - Blog.qmd
 
       # - icon: mastodon  # To include icons in the navigation bar
       #   href: https://joinmastodon.org
@@ -41,8 +54,8 @@ website:
       #   href: https://scholar.google.com
       # - text: "{{< iconify fa6-brands orcid size=1.2em title='ORCID' >}}"
       #   href: https://orcid.org/
-      - icon: rss
-        href: index.xml
+      #- icon: rss
+      #  href: index.xml
       # - icon: twitter
       #   href: https://twitter.com
 

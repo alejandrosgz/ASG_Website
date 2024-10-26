@@ -31,17 +31,19 @@ about:
 
 Hi there!
 
-I am Pre-Doctoral Researcher in University of Alcalá. My background is on Environmental Sciences, with a Masters Degree in Hydrology and Water Resources management. My research field is Hydrological modelling, working with process based models, concretely SWAT+. I have strong programming skills in R, and I like working and exploring data. In my free time I like practising outdoors sports, travel, and enjoy nature.
+I am Predoctoral Researcher in University of Alcalá. My background is on Environmental Sciences, with a Masters´ Degree in Hydrology and Water Resources Management. 
+
+My research field is Hydrological modelling, working with process based models, concretely SWAT+. I have strong programming skills with R, and I like working and exploring data. In my free time I like practising outdoors sports, travel, and enjoy nature.
 
 
 ## Education
 
 
-PhD in Sciences | University of Alcalá (UAH) | 2020-Present
+**PhD in Sciences** | University of Alcalá (UAH) | 2020-Present
 
-MSc in Hydrology and Water Resources Management | University of Alcalá (UAH) and King Juan Carlos University (URJC) | 2019-2020
+**MSc in Hydrology and Water Resources Management** | University of Alcalá (UAH) and King Juan Carlos University (URJC) | 2019-2020
 
-BSc in Environmental Sciences | Autonomous University of Madrid (UAM) | 2015-2019
+**BSc in Environmental Sciences** | Autonomous University of Madrid (UAM) | 2015-2019
 
 
 
