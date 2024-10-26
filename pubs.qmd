@@ -1,0 +1,10 @@
+---
+title: Publications
+---
+Y Asensio, M Llorente, A Sánchez-Gómez, C Manchon, K Boltes, .... 2021. Microbial electrochemical fluidized bed reactor: a promising solution for removing pollutants from pharmaceutical industrial wastewater. *Frontiers in Microbiology*. 12, 737112
+A Sánchez-Gómez, S Martínez-Pérez, FM Pérez-Chavero, .... 2022. Optimization of a SWAT model by incorporating geological information through calibration strategies. *Optimization and Engineering*. 23 (4), 2203-2233
+A Sánchez-Gómez, S Martinez-Perez, S Leduc, A Sastre-Merlin, .... 2023. Streamflow components and climate change: Lessons learnt and energy implications after hydrological modeling experiences in catchments with a Mediterranean climate. *Energy Reports*. 9, 277-291
+J Martínez-Fernández, E Molina-Navarro, Á González-Zamora, .... 2023. SWAT soil moisture assessment under Mediterranean conditions: An intercomparison analysis in the Henares basin (Spain). *Journal of Hydrology: Regional Studies*. 48, 101460
+A Sánchez-Gómez, K Bieger, C Schürz, S Martínez-Pérez, H Rathjens, .... 2024. Hydrovars: an R tool to collect hydrological variables. *Journal of Hydroinformatics*. 26 (5), 1150-1166
+A Sánchez-Gómez, C Schürz, E Molina-Navarro, K Bieger. 2024. Groundwater modelling in SWAT+: Considerations for a realistic baseflow simulation. *Groundwater for Sustainable Development*. 26, 101275
+E Molina-Navarro, A Sánchez-Gómez, S Martínez-Pérez. 2024. Innovating on Hydrological Modelling Calibration Towards a Realistic Simulation of Climate Change Impacts on Water Resources. *Earth Systems and Environment*. 1-18

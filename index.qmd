@@ -3,23 +3,23 @@ title: "Alejandro Sánchez Gómez" # Page title
 subtitle: "alejandro.sanchezg@uah.es"
 about:
   template: trestles # Different templates https://quarto.org/docs/websites/website-about.html 
-  image: avatar.jpg # Picture
+  image: prof_pic.jpeg # Picture
   links: # Links to social networks
-    - icon: envelope # Read the icons from a web. Iconify allow to configure the location, etc. https://iconify.design/
+ #   - icon: envelope # Read the icons from a web. Iconify allow to configure the location, etc. https://iconify.design/
       # text: email
-      href: "alejandro.sanchezg@uah.es"
+ #     href: "alejandro.sanchezg@uah.es"
    # - icon: mastodon
    #   href: https://joinmastodon.org
    # - text: "{{< iconify fa6-brands bluesky title='BlueSky'>}}"
    #   href: https://bsky.app
    # - text: "{{< iconify fa6-brands x-twitter title='Twitter'>}}"
    #   href: https://x.com
-    - icon: github
-      href: https://github.com/alejandrosgz
     - icon: linkedin
       href: https://www.linkedin.com/in/alejandrosanchezgomezasg/
     - text: "{{< iconify academicons google-scholar-square size=1.2em title='Scholar'>}}"
       href: https://scholar.google.es/citations?user=EnClcUMAAAAJ&hl=es&oi=ao
+    - icon: github
+      href: https://github.com/alejandrosgz
     - text: "{{< iconify fa6-brands orcid size=1.2em title='ORCID' >}}"
       href: https://orcid.org/my-orcid?orcid=0000-0003-1085-0941
     # - icon: twitter
@@ -29,15 +29,21 @@ about:
 
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+Hi there!
+
+I am Pre-Doctoral Researcher in University of Alcalá. My background is on Environmental Sciences, with a Masters Degree in Hydrology and Water Resources management. My research field is Hydrological modelling, working with process based models, concretely SWAT+. I have strong programming skills in R, and I like working and exploring data. In my free time I like practising outdoors sports, travel, and enjoy nature.
+
 
 ## Education
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+PhD in Sciences | University of Alcalá (UAH) | 2020-Present
+
+MSc in Hydrology and Water Resources Management | University of Alcalá (UAH) and King Juan Carlos University (URJC) | 2019-2020
+
+BSc in Environmental Sciences | Autonomous University of Madrid (UAM) | 2015-2019
+
+
 
 ## Experience
 
