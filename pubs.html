@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – My website</title>
+<title>Publications – My website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,72 +66,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="My website" href="Blog.xml" data-external="1"><meta property="og:title" content="Blog – My website">
+<meta property="og:title" content="Publications – My website">
+<meta property="og:description" content="I am a scientist">
 <meta property="og:site_name" content="My website">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -163,7 +104,7 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Blog.html" aria-current="page"> 
+    <a class="nav-link" href="./Blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -182,14 +123,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="computational">computational <span class="quarto-category-count">(1)</span></div><div class="category" data-category="contemplative">contemplative <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
@@ -206,83 +146,11 @@ window.Quarto = {
 </header>
 
 
+<p>Y Asensio, M Llorente, A Sánchez-Gómez, C Manchon, K Boltes, …. 2021. Microbial electrochemical fluidized bed reactor: a promising solution for removing pollutants from pharmaceutical industrial wastewater. <em>Frontiers in Microbiology</em>. 12, 737112 A Sánchez-Gómez, S Martínez-Pérez, FM Pérez-Chavero, …. 2022. Optimization of a SWAT model by incorporating geological information through calibration strategies. <em>Optimization and Engineering</em>. 23 (4), 2203-2233 A Sánchez-Gómez, S Martinez-Perez, S Leduc, A Sastre-Merlin, …. 2023. Streamflow components and climate change: Lessons learnt and energy implications after hydrological modeling experiences in catchments with a Mediterranean climate. <em>Energy Reports</em>. 9, 277-291 J Martínez-Fernández, E Molina-Navarro, Á González-Zamora, …. 2023. SWAT soil moisture assessment under Mediterranean conditions: An intercomparison analysis in the Henares basin (Spain). <em>Journal of Hydrology: Regional Studies</em>. 48, 101460 A Sánchez-Gómez, K Bieger, C Schürz, S Martínez-Pérez, H Rathjens, …. 2024. Hydrovars: an R tool to collect hydrological variables. <em>Journal of Hydroinformatics</em>. 26 (5), 1150-1166 A Sánchez-Gómez, C Schürz, E Molina-Navarro, K Bieger. 2024. Groundwater modelling in SWAT+: Considerations for a realistic baseflow simulation. <em>Groundwater for Sustainable Development</em>. 26, 101275 E Molina-Navarro, A Sánchez-Gómez, S Martínez-Pérez. 2024. Innovating on Hydrological Modelling Calibration Towards a Realistic Simulation of Climate Change Impacts on Water Resources. <em>Earth Systems and Environment</em>. 1-18</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="contemplative" data-listing-date-sort="1729468800000" data-listing-file-modified-sort="1729959821268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/another-post.html" class="no-external"></a></p><a href="./posts/another-post.html" class="no-external">
-<p class="card-img-top"><img src="projects/contemplation.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/another-post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/another-post.html" class="no-external">The value of contemplative ecology</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/another-post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('contemplative'); return false;">
-contemplative
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/another-post.html" class="no-external">Some thoughts about it</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/another-post.html" class="no-external">
-<div class="listing-date">
-Oct 21, 2024
-</div>
-<div class="listing-author">
-John Doe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="computational" data-listing-date-sort="1729382400000" data-listing-file-modified-sort="1729959821268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/new-post.html" class="no-external"></a></p><a href="./posts/new-post.html" class="no-external">
-<p class="card-img-top"><img src="projects/code.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/new-post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/new-post.html" class="no-external">The value of computational ecology</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/new-post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('computational'); return false;">
-computational
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/new-post.html" class="no-external">Some thoughts about it</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/new-post.html" class="no-external">
-<div class="listing-date">
-Oct 20, 2024
-</div>
-<div class="listing-author">
-John Doe
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

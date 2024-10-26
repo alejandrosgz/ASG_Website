@@ -21,6 +21,13 @@
     "text": "Learning about the natural world just by contemplating it"
   },
   {
+    "objectID": "pubs.html",
+    "href": "pubs.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Y Asensio, M Llorente, A Sánchez-Gómez, C Manchon, K Boltes, …. 2021. Microbial electrochemical fluidized bed reactor: a promising solution for removing pollutants from pharmaceutical industrial wastewater. Frontiers in Microbiology. 12, 737112 A Sánchez-Gómez, S Martínez-Pérez, FM Pérez-Chavero, …. 2022. Optimization of a SWAT model by incorporating geological information through calibration strategies. Optimization and Engineering. 23 (4), 2203-2233 A Sánchez-Gómez, S Martinez-Perez, S Leduc, A Sastre-Merlin, …. 2023. Streamflow components and climate change: Lessons learnt and energy implications after hydrological modeling experiences in catchments with a Mediterranean climate. Energy Reports. 9, 277-291 J Martínez-Fernández, E Molina-Navarro, Á González-Zamora, …. 2023. SWAT soil moisture assessment under Mediterranean conditions: An intercomparison analysis in the Henares basin (Spain). Journal of Hydrology: Regional Studies. 48, 101460 A Sánchez-Gómez, K Bieger, C Schürz, S Martínez-Pérez, H Rathjens, …. 2024. Hydrovars: an R tool to collect hydrological variables. Journal of Hydroinformatics. 26 (5), 1150-1166 A Sánchez-Gómez, C Schürz, E Molina-Navarro, K Bieger. 2024. Groundwater modelling in SWAT+: Considerations for a realistic baseflow simulation. Groundwater for Sustainable Development. 26, 101275 E Molina-Navarro, A Sánchez-Gómez, S Martínez-Pérez. 2024. Innovating on Hydrological Modelling Calibration Towards a Realistic Simulation of Climate Change Impacts on Water Resources. Earth Systems and Environment. 1-18"
+  },
+  {
     "objectID": "projects/computational-ecology.html",
     "href": "projects/computational-ecology.html",
     "title": "Computational Ecology",
@@ -39,14 +46,14 @@
     "href": "index.html",
     "title": "Alejandro Sánchez Gómez",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+    "text": "Hi there!\nI am Pre-Doctoral Researcher in University of Alcalá. My background is on Environmental Sciences, with a Masters Degree in Hydrology and Water Resources management. My research field is Hydrological modelling, working with process based models, concretely SWAT+. I have strong programming skills in R, and I like working and exploring data. In my free time I like practising outdoors sports, travel, and enjoy nature."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Alejandro Sánchez Gómez",
     "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+    "text": "Education\nPhD in Sciences | University of Alcalá (UAH) | 2020-Present\nMSc in Hydrology and Water Resources Management | University of Alcalá (UAH) and King Juan Carlos University (URJC) | 2019-2020\nBSc in Environmental Sciences | Autonomous University of Madrid (UAM) | 2015-2019"
   },
   {
     "objectID": "index.html#experience",
