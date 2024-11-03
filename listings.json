@@ -16,7 +16,9 @@
   {
     "listing": "/Publications.html",
     "items": [
-      "/publications/p1.html"
+      "/publications/p1.html",
+      "/publications/p3.html",
+      "/publications/p2.html"
     ]
   }
 ]
