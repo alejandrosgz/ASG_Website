@@ -12,5 +12,11 @@
       "/posts/another-post.html",
       "/posts/new-post.html"
     ]
+  },
+  {
+    "listing": "/Publications.html",
+    "items": [
+      "/publications/p1.html"
+    ]
   }
 ]
