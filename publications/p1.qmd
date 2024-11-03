@@ -2,6 +2,6 @@
 title: "Groundwater simulation in SWAT+"
 image: grph_abs_p1_gsd.jpg
 # categories: 
-#   - ecoinformatics
+#   - SWAT Modelling
 ---
 

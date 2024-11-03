@@ -1,0 +1,7 @@
+---
+title: "Soft calibration"
+image: gabs_p3_hsj.jpg
+# categories: 
+#   - SWAT Modelling
+---
+

@@ -1,0 +1,7 @@
+---
+title: "Water management in SWAT+"
+image: gabs-p2_wrm.png
+# categories: 
+#   - SWAT Modelling
+---
+
