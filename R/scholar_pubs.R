@@ -1,7 +1,7 @@
 scholar_pubs <- function(id = NULL, file = "publications.qmd") {
 
-  scholar.df <- scholar::get_publications(id) |>
-    sort_by(~ list(-year))
+  scholar.df <- scholar::get_publications(id)# |>
+      #funprog::sort_by(~ list(-year))
 
   pubs <- do.call("rbind", lapply(split(scholar.df, f = 1:nrow(scholar.df)), format_pub))
 
@@ -21,4 +21,21 @@ format_pub <- function(pub) {
 }
 
 
-scholar_pubs("https://scholar.google.es/citations?user=EnClcUMAAAAJ&hl=es&oi=ao")
+
+id <- "EnClcUMAAAAJ"
+
+scholar_tib <- scholar::get_publications(id) %>%
+  tibble::tibble(.) %>% arrange(., --year)
+
+
+pubs <- do.call("rbind", lapply(split(scholar_tib, f = 1:nrow(scholar_tib)), format_pub))
+
+pubs <- paste("- ", format_pubs, collapse = "\n\n")
+
+writeLines(c("---",
+             "title: Publications",
+             "---",
+             pubs),
+           con = "pubs.qmd")
+
+
