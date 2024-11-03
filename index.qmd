@@ -31,9 +31,13 @@ about:
 
 Hi there!
 
-I am Predoctoral Researcher in University of Alcalá. My background is on Environmental Sciences, with a Masters´ Degree in Hydrology and Water Resources Management. 
+I am Alejandro Sánchez Gómez, from Madrid (Spain).
 
-My research field is Hydrological modelling, working with process based models, concretely SWAT+. I have strong programming skills with R, and I like working and exploring data. In my free time I like practising outdoors sports, travel, and enjoy nature.
+I work as Predoctoral Researcher in University of Alcalá (UAH). My background is on Environmental Sciences, with a Masters´ Degree in Hydrology and Water Resources Management. 
+
+I work on Hydrological modelling with process based models, concretely SWAT+. I like working and exploring data, mostly using R. In my free time I like practising outdoors sports, travelling, and exploring nature.
+
+In this page you will find publications and projects in which I have been involved. 
 
 
 ## Education
@@ -46,9 +50,8 @@ My research field is Hydrological modelling, working with process based models, 
 **BSc in Environmental Sciences** | Autonomous University of Madrid (UAM) | 2015-2019
 
 
-
 ## Experience
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+**Predoctoral Researcher** - UAH FPU Fellowship Program | University of Alcalá | 2021-Present
 
-GeoScynce | Chief Analyst | Spet 2012 - April 2018
+**Researcher** | University of Alcalá | 2020-2021 

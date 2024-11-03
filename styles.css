@@ -1,1 +1,51 @@
 /* css styles */
+
+
+/* Cambia el color de fondo de la barra de navegación */
+.navbar {
+  background-color: #004080; /* Cambia a tu color preferido */
+}
+
+/* Cambia el color del texto en la barra de navegación */
+.navbar a {
+  color: #3B3B3C; /* Cambia a tu color preferido */
+/*    font-size: 15px;  /* Cambia el tamaño a tu preferencia */
+
+}
+
+/* Opcional: Cambia el color del texto al pasar el cursor */
+.navbar a:hover {
+  color: #02090B; /* Cambia a tu color preferido */
+/*    font-size: 16px;  /* Cambia el tamaño a tu preferencia */
+
+}
+
+/*    /* Estilo para la barra inferior (footer) */
+/*    .quarto-footer {
+/*      background-color: #A4E5EE; /* Color de fondo de la barra inferior */
+/*      color: #080F10;            /* Color del texto en la barra inferior */
+/*      padding: 10px;             /* Opcional: espacio interior */
+/*      text-align: right;        /* Centrado del texto */
+/*    }
+/*
+/*    /* Opcional: Color del texto al pasar el ratón */
+/*    .quarto-footer a {
+/*      color: #ffffff;
+/*    }
+/*
+/*    .quarto-footer a:hover {
+/*      color: #cccccc;
+/*    }
+
+
+/* Make the navigation bar fixed at the top */
+.navbar {
+  position: fixed;      /* Fixes the navbar at the top */
+ /* top: 0;               /* Position it at the top of the page */
+  width: 100%;          /* Make it span the full width */
+   margin-bottom: 30px;
+}
+/*  z-index: 1000;       /* Ensure it appears above other content */
+/*  padding: 5px 8px;
+
+
